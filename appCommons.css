@@ -1,0 +1,39 @@
+.app {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    user-select: none;
+}
+
+.app>div {
+    padding: 5px;
+}
+
+.navbar {
+    height: 10%;
+    width: 100%;
+    background-color: red;
+}
+
+.sidebar {
+    background-color: yellowgreen;
+    height: 90%;
+    width: 20%;
+    min-width: 200px;
+    max-width: 300px;
+    flex-grow: 0.5;
+    overflow: hidden;
+}
+
+.mainDisplay {
+    background-color: aqua;
+    flex-grow: 4.5;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
